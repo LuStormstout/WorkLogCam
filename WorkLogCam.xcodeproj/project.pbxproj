@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123507512B1770720073A85C /* WorkLogCamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123507502B1770720073A85C /* WorkLogCamApp.swift */; };
+		123507532B1770720073A85C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123507522B1770720073A85C /* ContentView.swift */; };
+		123507552B1770740073A85C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123507542B1770740073A85C /* Assets.xcassets */; };
+		123507582B1770740073A85C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123507572B1770740073A85C /* Preview Assets.xcassets */; };
+		123507622B1770740073A85C /* WorkLogCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123507612B1770740073A85C /* WorkLogCamTests.swift */; };
+		1235076C2B1770740073A85C /* WorkLogCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235076B2B1770740073A85C /* WorkLogCamUITests.swift */; };
+		1235076E2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235076D2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1235075E2B1770740073A85C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 123507452B1770720073A85C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1235074C2B1770720073A85C;
+			remoteInfo = WorkLogCam;
+		};
+		123507682B1770740073A85C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 123507452B1770720073A85C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1235074C2B1770720073A85C;
+			remoteInfo = WorkLogCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1235074D2B1770720073A85C /* WorkLogCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkLogCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		123507502B1770720073A85C /* WorkLogCamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogCamApp.swift; sourceTree = "<group>"; };
+		123507522B1770720073A85C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		123507542B1770740073A85C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		123507572B1770740073A85C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1235075D2B1770740073A85C /* WorkLogCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkLogCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		123507612B1770740073A85C /* WorkLogCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogCamTests.swift; sourceTree = "<group>"; };
+		123507672B1770740073A85C /* WorkLogCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkLogCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1235076B2B1770740073A85C /* WorkLogCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogCamUITests.swift; sourceTree = "<group>"; };
+		1235076D2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1235074A2B1770720073A85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1235075A2B1770740073A85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123507642B1770740073A85C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123507442B1770720073A85C = {
+			isa = PBXGroup;
+			children = (
+				1235074F2B1770720073A85C /* WorkLogCam */,
+				123507602B1770740073A85C /* WorkLogCamTests */,
+				1235076A2B1770740073A85C /* WorkLogCamUITests */,
+				1235074E2B1770720073A85C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1235074E2B1770720073A85C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1235074D2B1770720073A85C /* WorkLogCam.app */,
+				1235075D2B1770740073A85C /* WorkLogCamTests.xctest */,
+				123507672B1770740073A85C /* WorkLogCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1235074F2B1770720073A85C /* WorkLogCam */ = {
+			isa = PBXGroup;
+			children = (
+				123507502B1770720073A85C /* WorkLogCamApp.swift */,
+				123507522B1770720073A85C /* ContentView.swift */,
+				123507542B1770740073A85C /* Assets.xcassets */,
+				123507562B1770740073A85C /* Preview Content */,
+			);
+			path = WorkLogCam;
+			sourceTree = "<group>";
+		};
+		123507562B1770740073A85C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				123507572B1770740073A85C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		123507602B1770740073A85C /* WorkLogCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				123507612B1770740073A85C /* WorkLogCamTests.swift */,
+			);
+			path = WorkLogCamTests;
+			sourceTree = "<group>";
+		};
+		1235076A2B1770740073A85C /* WorkLogCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1235076B2B1770740073A85C /* WorkLogCamUITests.swift */,
+				1235076D2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift */,
+			);
+			path = WorkLogCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1235074C2B1770720073A85C /* WorkLogCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123507712B1770740073A85C /* Build configuration list for PBXNativeTarget "WorkLogCam" */;
+			buildPhases = (
+				123507492B1770720073A85C /* Sources */,
+				1235074A2B1770720073A85C /* Frameworks */,
+				1235074B2B1770720073A85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkLogCam;
+			productName = WorkLogCam;
+			productReference = 1235074D2B1770720073A85C /* WorkLogCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1235075C2B1770740073A85C /* WorkLogCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123507742B1770740073A85C /* Build configuration list for PBXNativeTarget "WorkLogCamTests" */;
+			buildPhases = (
+				123507592B1770740073A85C /* Sources */,
+				1235075A2B1770740073A85C /* Frameworks */,
+				1235075B2B1770740073A85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1235075F2B1770740073A85C /* PBXTargetDependency */,
+			);
+			name = WorkLogCamTests;
+			productName = WorkLogCamTests;
+			productReference = 1235075D2B1770740073A85C /* WorkLogCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		123507662B1770740073A85C /* WorkLogCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123507772B1770740073A85C /* Build configuration list for PBXNativeTarget "WorkLogCamUITests" */;
+			buildPhases = (
+				123507632B1770740073A85C /* Sources */,
+				123507642B1770740073A85C /* Frameworks */,
+				123507652B1770740073A85C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				123507692B1770740073A85C /* PBXTargetDependency */,
+			);
+			name = WorkLogCamUITests;
+			productName = WorkLogCamUITests;
+			productReference = 123507672B1770740073A85C /* WorkLogCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		123507452B1770720073A85C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					1235074C2B1770720073A85C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					1235075C2B1770740073A85C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1235074C2B1770720073A85C;
+					};
+					123507662B1770740073A85C = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 1235074C2B1770720073A85C;
+					};
+				};
+			};
+			buildConfigurationList = 123507482B1770720073A85C /* Build configuration list for PBXProject "WorkLogCam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 123507442B1770720073A85C;
+			productRefGroup = 1235074E2B1770720073A85C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1235074C2B1770720073A85C /* WorkLogCam */,
+				1235075C2B1770740073A85C /* WorkLogCamTests */,
+				123507662B1770740073A85C /* WorkLogCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1235074B2B1770720073A85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123507582B1770740073A85C /* Preview Assets.xcassets in Resources */,
+				123507552B1770740073A85C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1235075B2B1770740073A85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123507652B1770740073A85C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		123507492B1770720073A85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123507532B1770720073A85C /* ContentView.swift in Sources */,
+				123507512B1770720073A85C /* WorkLogCamApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123507592B1770740073A85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123507622B1770740073A85C /* WorkLogCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		123507632B1770740073A85C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1235076E2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift in Sources */,
+				1235076C2B1770740073A85C /* WorkLogCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1235075F2B1770740073A85C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1235074C2B1770720073A85C /* WorkLogCam */;
+			targetProxy = 1235075E2B1770740073A85C /* PBXContainerItemProxy */;
+		};
+		123507692B1770740073A85C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1235074C2B1770720073A85C /* WorkLogCam */;
+			targetProxy = 123507682B1770740073A85C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1235076F2B1770740073A85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		123507702B1770740073A85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		123507722B1770740073A85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkLogCam/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LV89YLF5K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lustormstout.com.WorkLogCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		123507732B1770740073A85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WorkLogCam/Preview Content\"";
+				DEVELOPMENT_TEAM = 4LV89YLF5K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lustormstout.com.WorkLogCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		123507752B1770740073A85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LV89YLF5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lustormstout.com.WorkLogCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkLogCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkLogCam";
+			};
+			name = Debug;
+		};
+		123507762B1770740073A85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LV89YLF5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lustormstout.com.WorkLogCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkLogCam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WorkLogCam";
+			};
+			name = Release;
+		};
+		123507782B1770740073A85C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LV89YLF5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lustormstout.com.WorkLogCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkLogCam;
+			};
+			name = Debug;
+		};
+		123507792B1770740073A85C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4LV89YLF5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lustormstout.com.WorkLogCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WorkLogCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123507482B1770720073A85C /* Build configuration list for PBXProject "WorkLogCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1235076F2B1770740073A85C /* Debug */,
+				123507702B1770740073A85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123507712B1770740073A85C /* Build configuration list for PBXNativeTarget "WorkLogCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123507722B1770740073A85C /* Debug */,
+				123507732B1770740073A85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123507742B1770740073A85C /* Build configuration list for PBXNativeTarget "WorkLogCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123507752B1770740073A85C /* Debug */,
+				123507762B1770740073A85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123507772B1770740073A85C /* Build configuration list for PBXNativeTarget "WorkLogCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123507782B1770740073A85C /* Debug */,
+				123507792B1770740073A85C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 123507452B1770720073A85C /* Project object */;
+}

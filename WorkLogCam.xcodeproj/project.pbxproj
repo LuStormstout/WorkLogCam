@@ -44,6 +44,7 @@
 		123507672B1770740073A85C /* WorkLogCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkLogCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1235076B2B1770740073A85C /* WorkLogCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogCamUITests.swift; sourceTree = "<group>"; };
 		1235076D2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1235077A2B17748F0073A85C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 		123507442B1770720073A85C = {
 			isa = PBXGroup;
 			children = (
+				1235077A2B17748F0073A85C /* README.md */,
 				1235074F2B1770720073A85C /* WorkLogCam */,
 				123507602B1770740073A85C /* WorkLogCamTests */,
 				1235076A2B1770740073A85C /* WorkLogCamUITests */,

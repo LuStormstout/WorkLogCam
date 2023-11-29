@@ -39,22 +39,6 @@ WorkLogCam是一个用于在施工和外出工作场景中进行打卡的iOS应�
 
 确保设备已连接到互联网，以获取实时天气信息。
 
-## 目录结构
-
-```
-├── WorkLogCam
-│   ├── WorkLogCam
-│   │   ├── Assets.xcassets
-│   │   ├── ContentView.swift
-│   │   └── ...
-│   ├── WorkLogCam.xcodeproj
-│   └── ...
-├── WorkLogCamTests
-│   └── ...
-└── WorkLogCamUITests
-    └── ...
-```
-
 ## 贡献
 
 欢迎提出问题、建议和改进！请提交问题以便我们能够改进此应用。

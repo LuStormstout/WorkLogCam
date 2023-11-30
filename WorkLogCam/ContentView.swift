@@ -1,24 +1,17 @@
-//
-//  ContentView.swift
-//  WorkLogCam
-//
-//  Created by Lu Stormstout on 2023/11/29.
-//
-
+// ContentView.swift
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        NavigationView {
+            CameraView()
+                .navigationBarTitle("相机应用", displayMode: .inline)
         }
-        .padding()
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }

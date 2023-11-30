@@ -14,6 +14,10 @@
 		123507622B1770740073A85C /* WorkLogCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123507612B1770740073A85C /* WorkLogCamTests.swift */; };
 		1235076C2B1770740073A85C /* WorkLogCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235076B2B1770740073A85C /* WorkLogCamUITests.swift */; };
 		1235076E2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235076D2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift */; };
+		1235077C2B177FA70073A85C /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235077B2B177FA70073A85C /* CameraView.swift */; };
+		1235077E2B1780280073A85C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235077D2B1780280073A85C /* ImagePicker.swift */; };
+		123507802B1782C00073A85C /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235077F2B1782C00073A85C /* CameraViewModel.swift */; };
+		123507822B1784810073A85C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 123507812B1784810073A85C /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,11 @@
 		1235076B2B1770740073A85C /* WorkLogCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogCamUITests.swift; sourceTree = "<group>"; };
 		1235076D2B1770740073A85C /* WorkLogCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkLogCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1235077A2B17748F0073A85C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1235077B2B177FA70073A85C /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		1235077D2B1780280073A85C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1235077F2B1782C00073A85C /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		123507812B1784810073A85C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		127CFEE42B17A38100E13D0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +84,7 @@
 		123507442B1770720073A85C = {
 			isa = PBXGroup;
 			children = (
+				127CFEE42B17A38100E13D0B /* Info.plist */,
 				1235077A2B17748F0073A85C /* README.md */,
 				1235074F2B1770720073A85C /* WorkLogCam */,
 				123507602B1770740073A85C /* WorkLogCamTests */,
@@ -100,6 +110,10 @@
 				123507522B1770720073A85C /* ContentView.swift */,
 				123507542B1770740073A85C /* Assets.xcassets */,
 				123507562B1770740073A85C /* Preview Content */,
+				1235077B2B177FA70073A85C /* CameraView.swift */,
+				1235077D2B1780280073A85C /* ImagePicker.swift */,
+				1235077F2B1782C00073A85C /* CameraViewModel.swift */,
+				123507812B1784810073A85C /* CardView.swift */,
 			);
 			path = WorkLogCam;
 			sourceTree = "<group>";
@@ -259,7 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1235077C2B177FA70073A85C /* CameraView.swift in Sources */,
+				123507802B1782C00073A85C /* CameraViewModel.swift in Sources */,
+				1235077E2B1780280073A85C /* ImagePicker.swift in Sources */,
 				123507532B1770720073A85C /* ContentView.swift in Sources */,
+				123507822B1784810073A85C /* CardView.swift in Sources */,
 				123507512B1770720073A85C /* WorkLogCamApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
